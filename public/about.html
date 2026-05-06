@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biz Haqimizda</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <strong>Fakultet News</strong>
+        <div class="links">
+          <a href="index.html">Bosh sahifa</a>
+          <a href="news.html">Yangiliklar</a>
+          <a class="active" href="about.html">Biz haqimizda</a>
+          <a href="contact.html">Aloqa</a>
+          <a href="login.html">Login/Sign Up</a>
+        </div>
+        <div>
+          <span id="userBox" class="msg"></span>
+          <button id="logoutBtn" class="primary hidden">Logout</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h1>Biz haqimizda</h1>
+        <p>Loyiha sodda usulda fakultet axborot sayti sifatida tayyorlandi.</p>
+      </section>
+
+      <section class="card">
+        <h2>Loyihada qatnashgan talabalar</h2>
+        <div class="news-item">
+          <h3>1. Soatmurodova Diyora</h3>
+          <p>Vazifasi: Backend (Node.js, Express, MySQL).</p>
+        </div>
+        <div class="news-item">
+          <h3>2. Turdaliyeva Farida</h3>
+          <p>Vazifasi: Frontend (HTML, CSS, JavaScript).</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; <span id="year"></span> Fakultet News</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
